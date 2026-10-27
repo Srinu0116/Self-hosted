@@ -1,0 +1,10 @@
+name: Self-Hosted-Runner
+on: push
+
+jobs:
+  b17_job:
+    runs-on: self-hosted
+
+  steps:
+    - name: self hosted
+    run: echo "this is a self hosted runner"
